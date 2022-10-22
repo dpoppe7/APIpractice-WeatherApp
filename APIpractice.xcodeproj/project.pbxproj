@@ -17,6 +17,10 @@
 		A5DE330D290462A8008844E1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5DE32E3290462A5008844E1 /* ContentView.swift */; };
 		A5DE330E290462A8008844E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5DE32E4290462A7008844E1 /* Assets.xcassets */; };
 		A5DE330F290462A8008844E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5DE32E4290462A7008844E1 /* Assets.xcassets */; };
+		A5DE331F29046D81008844E1 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5DE331E29046D81008844E1 /* Models.swift */; };
+		A5DE332029046D81008844E1 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5DE331E29046D81008844E1 /* Models.swift */; };
+		A5DE332229046D93008844E1 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5DE332129046D93008844E1 /* ViewModel.swift */; };
+		A5DE332329046D93008844E1 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5DE332129046D93008844E1 /* ViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +53,8 @@
 		A5DE3302290462A8008844E1 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5DE3306290462A8008844E1 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		A5DE3308290462A8008844E1 /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
+		A5DE331E29046D81008844E1 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		A5DE332129046D93008844E1 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,8 +103,11 @@
 		A5DE32E1290462A5008844E1 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				A5DE332529047F82008844E1 /* Preview COntent */,
 				A5DE32E2290462A5008844E1 /* APIpracticeApp.swift */,
+				A5DE332129046D93008844E1 /* ViewModel.swift */,
 				A5DE32E3290462A5008844E1 /* ContentView.swift */,
+				A5DE331E29046D81008844E1 /* Models.swift */,
 				A5DE32E4290462A7008844E1 /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -139,6 +148,13 @@
 				A5DE3308290462A8008844E1 /* Tests_macOSLaunchTests.swift */,
 			);
 			path = "Tests macOS";
+			sourceTree = "<group>";
+		};
+		A5DE332529047F82008844E1 /* Preview COntent */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Preview COntent";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -299,7 +315,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A5DE331F29046D81008844E1 /* Models.swift in Sources */,
 				A5DE330C290462A8008844E1 /* ContentView.swift in Sources */,
+				A5DE332229046D93008844E1 /* ViewModel.swift in Sources */,
 				A5DE330A290462A8008844E1 /* APIpracticeApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -308,7 +326,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A5DE332029046D81008844E1 /* Models.swift in Sources */,
 				A5DE330D290462A8008844E1 /* ContentView.swift in Sources */,
+				A5DE332329046D93008844E1 /* ViewModel.swift in Sources */,
 				A5DE330B290462A8008844E1 /* APIpracticeApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
