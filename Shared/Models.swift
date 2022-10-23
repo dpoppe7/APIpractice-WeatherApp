@@ -7,18 +7,18 @@
 
 import Foundation
 
+//From API response JSON: https://openweathermap.org/current
 struct WeatherModel: Codable {
-    //Got fields from API response JSON: https://openweathermap.org/api/one-call-3#how
-    let timezone: String
-    let current: CurrentWeather
-}
-
-struct CurrentWeather: Codable{
-    let temp: Float
+    let name: String
     let weather: [WeatherInfo]
+    let main: MainInfo
 }
 
 struct WeatherInfo: Codable{
     let main: String
     let description: String
+}
+
+struct MainInfo: Codable {
+    let temp: Float
 }

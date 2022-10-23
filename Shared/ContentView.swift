@@ -16,9 +16,9 @@ struct ContentView: View {
     var body: some View {
         NavigationView{
             VStack{
-                Text(viewModel.timezone).font(.system(size: 32))
+                Text(viewModel.name).font(.system(size: 32))
                 Text(viewModel.temp).font(.system(size: 44))
-                Text(viewModel.title).font(.system(size: 25))
+                Text(viewModel.main).font(.system(size: 25))
                 Text(viewModel.descriptionText).font(.system(size: 25))
             }
         }
